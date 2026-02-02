@@ -1,0 +1,127 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1b;
+    line-height: 1.6;
+    margin: 0;
+}
+.portfolio-card {
+    background: #ffffff;
+    border: 1px solid #e4e6eb;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.inner-card {
+    border: 1px solid #e4e6eb;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.name { 
+    font-size: 1.75rem; 
+    font-weight: 700; 
+    margin: 0; 
+}
+
+.pronouns { 
+    font-size: 0.9rem; 
+    color: #65676b; 
+    font-weight: 400; 
+}
+
+.role { 
+    color: #0d6efd; 
+    font-weight: 600; 
+    margin-bottom: 4px; 
+}
+
+.location { 
+    font-size: 0.85rem; 
+    color: #65676b; 
+}
+
+.school-logo { 
+    height: 60px; 
+    width: auto; 
+}
+
+.school-name { 
+    font-size: 0.75rem; 
+    font-weight: 600; 
+    color: #65676b; 
+}
+
+.btn-pill {
+    text-decoration: none;
+    color: #1a1a1b;
+    background: #f0f2f5;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.btn-pill:hover { 
+    background: #e4e6eb; 
+}
+
+.tech-tag {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e4e6eb;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    margin: 0 4px 8px 0;
+    font-weight: 500;
+}
+.section-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stack-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #65676b;
+    margin-bottom: 10px;
+}
+
+.cert-box {
+    display: block;
+    background: #f0f7ff;
+    color: #0052cc;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hobby-list li { 
+    margin-bottom: 10px; 
+    list-style: none; 
+}
+
+.divider { 
+    border-top: 1px solid #e4e6eb; 
+    margin: 15px 0; 
+    opacity: 0.5; 
+}
