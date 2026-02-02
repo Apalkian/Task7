@@ -104,16 +104,6 @@ body {
     margin-bottom: 10px;
 }
 
-.cert-box {
-    display: block;
-    background: #f0f7ff;
-    color: #0052cc;
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-align: center;
-}
 
 .hobby-list li { 
     margin-bottom: 10px; 
